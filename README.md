@@ -1,1 +1,1 @@
-SapplyValues is a clone of the Sapply political compass, made to use 8values' UI.
+Перевод теста [SapplyValues](https://sapplyvalues.github.io/)

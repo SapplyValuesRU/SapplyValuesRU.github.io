@@ -1,6 +1,6 @@
 <head>
     <meta charset="utf-8">
-    <title>SapplyValues Feedback</title>
+    <title>Обратная связь SapplyValues</title>
 
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
@@ -16,15 +16,15 @@
 <body>
 
 
-<h1>SapplyValues Feedback</h1>
+<h1>Обратная связь SapplyValues</h1>
 <hr>
 
-<h2 style="text-align:center;" id="question-number">All done!</h2>
-<p class="question" id="question-text">Did you complete this test in a serious (or at least unironic) manner?</p>
+<h2 style="text-align:center;" id="question-number">Готово!</h2>
+<p class="question" id="question-text">Вы отвечали на вопросы без иронии?</p>
 <div id="answers">
-    <button class="button" id="serious_extra" onclick="init_question()" style="background-color: #1b5e20;">Yes, and I'd like to (anonymously) help with ideology assignment!</button> <br>
-    <button class="button" id="serious" onclick="pass(true)" style="background-color: #4caf50;">Yes, but get me to the results!</button> <br>
-    <button class="button" onclick="pass(false)">Nah, just get me to the results!</button> <br>
+    <button class="button" id="serious_extra" onclick="init_question()" style="background-color: #1b5e20;">Да, и я хочу (анонимно) помочь улучшить определение идеологии!</button> <br>
+    <button class="button" id="serious" onclick="pass(true)" style="background-color: #4caf50;">Да, но покажите мне результаты!</button> <br>
+    <button class="button" onclick="pass(false)">Не, покажите мне уже результаты!</button> <br>
     <button class="button" id="quiz" onclick="location.href='quiz.html';" style="background-color: #4caf50; display: none;">Do the quiz!</button> <br>
 </div>
 <button class="small_button" onclick="prev_question()" id="back_button" style="display: none;">Back</button>
