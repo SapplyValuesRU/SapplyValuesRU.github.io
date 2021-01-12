@@ -43,7 +43,7 @@ p.question {
     border-radius: 16pt;
     font-size: 36pt;
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
     text-align: center;
 
